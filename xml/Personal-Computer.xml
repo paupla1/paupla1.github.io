@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PC [
+  <!ELEMENT PC (Component*)>
+  <!ELEMENT Component (Type, Description)>
+  <!ELEMENT Type (#PCDATA)>
+  <!ELEMENT Description (#PCDATA)>
+]>
+              <PC>
+                <Component>
+                  <Type>Case</Type>
+                  <Description>The case, also known as a chassis, is the enclosure that houses all the components of a computer and provides protection and airflow.</Description>
+                </Component>
+                <Component>
+                  <Type>CPU Cooler</Type>
+                  <Description>The CPU cooler is a device that keeps the processor cool by dissipating heat generated during operation.</Description>
+                </Component>
+                <Component>
+                  <Type>Motherboard</Type>
+                  <Description>The motherboard is the main circuit board that connects and allows communication between all the components of a computer, including the CPU, RAM, GPU, and storage devices.</Description>
+                </Component>
+                <Component>
+                  <Type>CPU (Central Processing Unit)</Type>
+                  <Description>The CPU is the brain of the computer that performs most of the calculations and executes instructions of a computer program.</Description>
+                </Component>
+                <Component>
+                  <Type>Thermal Paste</Type>
+                  <Description>Thermal paste, also known as thermal compound, is a material applied between the CPU and CPU cooler to improve heat transfer and ensure efficient cooling.</Description>
+                </Component>
+                <Component>
+                  <Type>RAM (Random Access Memory)</Type>
+                  <Description>RAM is the temporary storage space used by the computer to store data and instructions that are actively being used by the CPU.</Description>
+                </Component>
+                <Component>
+                  <Type>GPU (Graphics Processing Unit)</Type>
+                  <Description>The GPU is responsible for rendering images, videos, and animations, and it is especially important for gaming and graphics-intensive applications.</Description>
+                </Component>
+                <Component>
+                  <Type>Power Supply</Type>
+                  <Description>The power supply unit (PSU) provides electrical power to the components of the computer and converts AC power from an outlet into DC power that the computer can use.</Description>
+                </Component>
+                <Component>
+                  <Type>Mouse</Type>
+                  <Description>A computer mouse is an input device that allows users to move the cursor and interact with graphical user interfaces.</Description>
+                </Component>
+                <Component>
+                  <Type>Keyboard</Type>
+                  <Description>A keyboard is an input device used for typing and entering commands into a computer.</Description>
+                </Component>
+              </PC>

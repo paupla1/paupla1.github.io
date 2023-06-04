@@ -1,0 +1,29 @@
+* { 
+    box-sizing: border-box; 
+}
+
+img{
+    max-width: 100%;
+}
+
+.div-1{
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+main{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iframe{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 532px;
+}
